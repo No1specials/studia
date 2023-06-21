@@ -4,7 +4,8 @@
   font-family: "Duru Sans", sans-serif;
 }
 
-body, html {
+body,
+html {
   scroll-behavior: smooth;
 }
 
@@ -140,4 +141,93 @@ a {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.info-main {
+  display: flex;
+  justify-content: center;
+}
+
+.info-section {
+  margin-top: 124px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  max-width: 1200px;
+}
+
+.info {
+  font-size: 24px;
+  max-width: 480px;
+  background-color: white;
+  margin-top: 70px;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 24px;
+}
+
+.open-hours-main {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 128px;
+  margin-bottom: 86px;
+}
+
+.open-hours-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-image {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.location-map-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.promotions-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  flex-wrap: wrap;
+}
+
+.promotions-image {
+  /* max-width: 300px; */
+  height: 700px;
+}
+
+.promotions {
+  display: flex;
+  gap: 40px;
+  max-width: 500px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promotion-item {
+  border: 1px solid black;
+  font-size: 24px;
+  width: 160px;
+  height: 160px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promotion-item:nth-of-type(2n) {
+  margin-top: 64px;
 }
